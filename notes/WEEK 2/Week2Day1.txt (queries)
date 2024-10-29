@@ -1,0 +1,61 @@
+-- 1. User Table
+CREATE TABLE User_table (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    role ENUM('Admin', 'Staff', 'Member') NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+-- 2. Membership Table
+CREATE TABLE Membership_table (
+    membership_id INT AUTO_INCREMENT PRIMARY KEY,
+    type VARCHAR(50) NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
+    duration_in_days INT NOT NULL,
+    description TEXT
+);
+
+-- 3. Payment Table
+CREATE TABLE Payment_table (
+    payment_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    amount DECIMAL(10,2) NOT NULL,
+    payment_date DATETIME NOT NULL,
+    status ENUM('Completed', 'Pending') NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES User_table(user_id) ON DELETE CASCADE
+);
+
+-- 4. User_Membership Table
+CREATE TABLE User_Membership_table (
+    user_membership_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    membership_id INT NOT NULL,
+    start_date DATE NOT NULL,
+    end_date DATE NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES User_table(user_id) ON DELETE CASCADE,
+    FOREIGN KEY (membership_id) REFERENCES Membership_table(membership_id) ON DELETE CASCADE
+);
+
+-- 5. Progress Table
+CREATE TABLE Progress_table (
+    progress_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    height_cm DECIMAL(5,2),
+    weight_kg DECIMAL(5,2) NOT NULL,
+    logged_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES User_table(user_id) ON DELETE CASCADE
+);
+
+-- 6. Diet Table
+CREATE TABLE Diet_table (
+    diet_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    meal_type ENUM('Breakfast', 'Lunch', 'Dinner', 'Snack') NOT NULL,
+    calories INT NOT NULL,
+    date_logged DATE NOT NULL,
+    description TEXT,
+    FOREIGN KEY (user_id) REFERENCES User_table(user_id) ON DELETE CASCADE
+);

@@ -1,0 +1,72 @@
+Week 2: Database Setup & Basic Backend Configuration
+Day 1: MySQL Database Creation and Setup (DONE)
+Objective: Set up the MySQL database and tables required for the application.
+Tasks:
+
+Install MySQL and any required database management tools (e.g., phpMyAdmin).
+Create the database (gym_membership_db).
+Define and create tables such as User, Membership, Payment, Progress, and Diet based on your ERD.
+Set appropriate primary keys, foreign keys, and constraints.
+Populate the tables with some initial dummy data for testing.
+Deliverable:
+Functional MySQL database with tables and relationships established.
+Day 2: PHP Database Connection Setup 
+Objective: Write initial PHP scripts to connect to the MySQL database.
+Tasks:
+
+Install PHP on your development environment if not already installed.
+Write a PHP configuration file (db_config.php) for database connection parameters (host, username, password, db name).
+Create a reusable database connection function in PHP.
+Test the connection to ensure that the database is accessible.
+Deliverable:
+PHP script that successfully connects to the MySQL database.
+Day 3: User Registration Logic (Backend Only)
+Objective: Develop the PHP backend logic for user registration.
+Tasks:
+
+Write a PHP script (register.php) to handle user input from the registration form.
+Include validations (e.g., email format, password match, unique username/email).
+Hash passwords securely using password_hash().
+Insert new users into the User table on successful registration.
+Handle errors (e.g., duplicate emails) gracefully.
+Deliverable:
+Functional backend for user registration, inserting data into the MySQL database.
+Day 4: User Login Logic (Backend Only)
+Objective: Implement backend logic for user authentication.
+Tasks:
+
+Create a login script (login.php) to validate credentials.
+Use password_verify() to check the hashed password against the database.
+Set session variables on successful login to manage the user state.
+Handle login errors (e.g., incorrect password or unregistered email).
+Deliverable:
+Functional login backend with proper session management.
+Day 5: Create Reusable Components (Header/Footer Templates)
+Objective: Build reusable PHP components for easier site management.
+Tasks:
+
+Create a header template (header.php) that includes the navigation bar and links.
+Create a footer template (footer.php) with copyright info and social media links.
+Include these templates across all pages using PHP include() or require().
+Deliverable:
+Consistent header and footer templates for use across multiple pages.
+Day 6: Testing and Debugging
+Objective: Ensure the backend functionality is working correctly.
+Tasks:
+
+Test user registration and login logic with valid and invalid inputs.
+Test session management and ensure users are redirected properly.
+Verify that the database connection remains stable.
+Debug any errors encountered during testing.
+Deliverable:
+Fully tested and working backend features.
+Day 7: Documentation and Review
+Objective: Document the work done so far and review for improvements.
+Tasks:
+
+Document the database setup, backend logic, and reusable components.
+Create a simple README file to guide others on setting up the project.
+Review the code and identify areas for improvement.
+Plan tasks for Week 3 (e.g., frontend integration).
+Deliverable:
+Complete documentation and readiness for Week 3.

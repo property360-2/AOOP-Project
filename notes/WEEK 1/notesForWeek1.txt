@@ -1,0 +1,66 @@
+gym membership application and services Systems 
+Week 1: Daily Breakdown
+Day 1: Research and Feature List
+Objective: Understand existing applications and gather ideas for your features.
+Tasks:
+Research existing gym membership applications. Take notes on features, user interfaces, and user feedback. (DONE)
+Compile a list of features that you think are essential. (DONE)
+Begin categorizing features into Must-Have and Nice-to-Have.(DONE)
+Deliverables: Draft feature list.(DONE)
+______________________________________________________________________-
+Day 2: Finalize Feature List and Identify User Roles
+Objective: Finalize the feature list and define user roles.
+Tasks:
+Review and finalize the feature list based on your research.(DONE)
+Identify different user roles (e.g., Admin, Gym Member) and what features are available to each.(DONE)
+Create a brief description of each role’s responsibilities and access levels.(DONE)
+Deliverables: Final feature list and user role descriptions.(DONE)
+______________________________________________________________________-
+Day 3: Design Database Schema (ERD)
+Objective: Create an initial database schema.(DONE)
+Tasks:(DONE)
+Draft the database schema based on the finalized feature list.(DONE)
+Define key tables and their relationships. Focus on Users, Memberships, Payments, and Classes tables.(DONE)
+Use diagram tools like Lucidchart or draw.io to visualize the schema.(DONE)
+Deliverables: Draft of the database schema.(DONE)
+______________________________________________________________________-
+Day 4: Create Wireframes/Mockups
+Objective: Visualize the application layout.
+Tasks:
+Choose a wireframing tool (e.g., Figma, Adobe XD, Balsamiq)|| papel gago.
+Design wireframes for key pages: Home, Registration/Login, Membership Plans, Admin Dashboard, Booking Page.(DONE)
+Focus on user flow and ensuring intuitive navigation.(DONE)
+Deliverables: Wireframes/mockups for key pages.(DONE)
+______________________________________________________________________-
+Day 5: Set Up Project Environment
+Objective: Prepare your development environment.
+Tasks:
+Install XAMPP or MAMP on your computer for local PHP and MySQL development.(DONE)
+Create a GitHub repository for version control. Initialize the repository and add a README file.
+Create the project folder structure:
+bash
+Copy code
+/gym-membership-app
+├── /frontend
+├── /backend
+├── /database
+└── README.md
+Deliverables: Fully set up project environment.
+______________________________________________________________________-
+
+Day 6: Documentation and Review
+Objective: Document your planning process and gather feedback.
+Tasks:
+Create a planning document summarizing your findings from the week, including features, roles, database schema, and wireframes.
+If possible, present your documentation and wireframes to peers or mentors for feedback.
+Note any suggestions for improvement or changes.
+Deliverables: Completed planning document and feedback notes.
+______________________________________________________________________-
+
+Day 7: Reflect and Adjust
+Objective: Reflect on the week and prepare for next steps.
+Tasks:
+Review all work completed throughout the week.
+Adjust your planning document based on feedback received.
+Prepare any notes or materials needed to transition into the frontend development phase in Week 3.
+Deliverables: Finalized planning document and reflections on improvements for next week.

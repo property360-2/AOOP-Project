@@ -1,0 +1,213 @@
+Anytime fitness:
+        when the program starts bumungad na yung use mga cookies
+        it has two buttons (accept and deny)
+    (UI)
+        for header
+            upper left : logo
+            upper middle : navigation links 
+                -whem being hover text lang yung nagbabago and hindi yung background 
+                -when active the background color changed 
+                -will redirect you to another page when the links are clicked
+                find a gym: 
+                    takes you to map then gives the locations of the gym near to you
+                why join: 
+                    - takes you to another webpage
+                    - there is a intro why join anytime fitness?
+                    - sa baba ng intro pero nasa loob pa rin ng container merong button na find a gym (also takes where you are redirected to find a gym)
+                    - may mga features sa baba
+                    - quotes 
+                    - member benefits
+                employee wellness: 
+                    - there is also intro that says the bottom line 
+                    - sa baba ng intro pero nasa loob pa rin ng container merong button na contact us 
+                    - merong mga marketing quotation katulad ng 
+                        - Why Wellness at Work?
+                        - Why Anytime Fitness?
+                Own a gym: 
+                    - not part of my scope
+            upper right : subcription Buttons || free trial
+                    - takes you to another webpage that has form 
+                    - merong free 1 day pass
+        for body
+            introduction:
+                - clickable address that takes you to a map page (gmap)
+                - summary of open hours
+                - subcription Buttons || free trial
+                - membership inquiry:  takes you to another form
+                - contact us 
+            View Club: 
+                - picture ng loob nung gym
+            Gym Amenities
+            Strength/Free Weights 
+            Functional Training
+            Cardio
+            Training and Coaching Services
+            staffs:
+            Coaches: 
+                - you can select and find the right coach for you
+                - 
+            footer: Company
+                    Careers Privacy Policy       DMCA Policy        Terms & Conditions
+                    Gyms
+                    Find a GymView              All Gyms            Own A Gym           Franchise Login
+                    Members
+                    FAQs                        Contact Us
+            tapos merong mga link for fb,instagram,X, youtube, indeed
+            tapos merong c saka adress and date established or whatever its called 
+
+            8/ 10
+fitness first gym: 
+        medyo similar sila nung anytime fitness
+        navigation buttons when being hover nagkakaroon ng underline 
+        - user authentication 
+        - when some buttons are being hover merong indicator sa baba e example yung profile icon pag nahover magkakaroon ng word sa baba which is impressive
+        - languages
+        sa body merong mga adresses
+        then puro marketing and subscription plan na 
+        sa footer merong email input na kung gusto ng news from website mag-email sila sayo
+        can be downloaded in playstore and app store
+        meron din customer support na hindi responsive
+
+        overall mostly similar sya sa anytime fitness just medo di lang responsive when buttons are being clicked
+        7/ 10
+
+mga feature na meron ang system ko na gusto ko
+    User authentication (staffs and customer)
+    map papuntang gym (optional)
+    cool intro
+    no fucking annoying subscription na humaharang sa UI as much as possbile nasa gilid or nasa footer para maganda
+    calorie counter
+    diet foods (calory deficit, normal and bulk);
+    weight stats
+    height stats
+    sa header
+            navigation links (max 5 tapos yung iba for marketing purposes lang)
+            free trial
+            profile icon tapos sa baba merong login (this is just for the users) 
+            languages small icon
+    sa body
+            introduction:
+                - clickable address that takes you to a map page (gmap)
+                - summary of open hours
+                - subcription Buttons || free trial
+                - membership inquiry:  takes you to another form
+                - contact us 
+            gym preview
+            free coaching
+            marketing
+            features
+            subcription
+            free water XD
+            great community eme
+            Caring eme WTF
+    then footer for contacts and more details and information
+
+
+
+______________________________________________-_______________________________________________________________________________________________-
+Draft
+Draft Features for Gym Membership Application
+1. User Authentication
+Description: Secure login and registration system for both customers and staff.
+Functionality:
+Users can create accounts, log in, and manage their profiles.
+Different access levels for customers and staff.
+2. Map to Gym (Optional)
+Description: Interactive map feature to help users locate gyms easily.
+Functionality:
+Clickable address that redirects to a map page (e.g., Google Maps).
+Option to display directions from the user's current location.
+3. Cool Intro
+Description: Engaging introductory content on the homepage.
+Functionality:
+Eye-catching visuals and animations to capture user attention.
+4. Subscription UI Design
+Description: Non-intrusive subscription promotion.
+Functionality:
+Subscription buttons positioned in the sidebar or footer to avoid disrupting the user experience.
+5. Calorie Counter
+Description: Tool for tracking calorie intake and expenditure.
+Functionality:
+Users can input meals and workouts to monitor their calorie balance.
+6. Diet Foods
+Description: Guidance on diet options based on goals.
+Functionality:
+Categorized diet plans:
+Caloric deficit
+Normal diet
+Bulking diet
+7. Weight Stats
+Description: Feature to track users' weight over time.
+Functionality:
+Users can log their weight and view progress through charts.
+8. Height Stats
+Description: Feature to track users' height measurements.
+Functionality:
+Users can input their height for progress tracking.
+Header Features
+9. Navigation Links
+Description: Main navigation menu at the header.
+Functionality:
+A maximum of 5 essential links, with others available for marketing purposes.
+10. Free Trial Button
+Description: Prominent call-to-action for users to sign up for a free trial.
+Functionality:
+Direct link to the registration page for free trial sign-ups.
+11. Profile Icon
+Description: Icon representing the user’s profile.
+Functionality:
+Clicking the icon shows the login dropdown for users to access their profiles.
+12. Language Icon
+Description: Small icon for selecting preferred languages.
+Functionality:
+Dropdown menu for language selection, enhancing accessibility.
+Body Features
+13. Introduction Section
+Description: Overview of the gym.
+Functionality:
+Clickable Address: Redirects to the map page (Google Maps).
+Summary of Open Hours: Displays gym operating hours.
+Subscription Buttons: Links to sign up for memberships or a free trial.
+Membership Inquiry: Button leading to an inquiry form.
+Contact Us: Button directing users to a contact form.
+14. Gym Preview
+Description: Visual and descriptive preview of gym facilities.
+Functionality:
+High-quality images and descriptions of gym equipment and services.
+15. Free Coaching
+Description: Information on complimentary coaching services.
+Functionality:
+Details on how users can access free coaching.
+16. Marketing Section
+Description: Promotional content to attract new members.
+Functionality:
+Engaging visuals and text to highlight gym offers.
+17. Features Section
+Description: Overview of key features of the gym.
+Functionality:
+Bullet points or icons representing different features.
+18. Subscription Section
+Description: Information on membership options.
+Functionality:
+Clear descriptions and pricing for different membership plans.
+19. Free Water Offer
+Description: Promotion of free water availability in the gym.
+Functionality:
+Highlighting this feature as a unique selling point.
+20. Great Community
+Description: Emphasizing the supportive community within the gym.
+Functionality:
+Testimonials or stories from current members.
+21. Caring Environment
+Description: Focus on the supportive and caring nature of the staff.
+Functionality:
+Information on staff training and member support.
+Footer Features
+22. Contact Information
+Description: Detailed contact information for inquiries.
+Functionality:
+Email, phone number, and social media links for easy access.
+23. Additional Information
+Description: Links to policies and other important details.
+Functionality:
+FAQs, terms of service, and privacy policy links.

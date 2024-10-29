@@ -1,0 +1,96 @@
+Day 2: Finalized Feature List and User Roles
+Objective:
+    Finalize the feature list based on research.
+    Define and describe different user roles with their responsibilities and access levels.
+
+Final Feature List
+1. User Authentication:
+    Secure login and registration for both customers and staff.
+    Password encryption and optional Multi-Factor Authentication (MFA) for added security.
+    Role-based access: Admin, Staff, Members, and Guests.
+2. Map to Gym (Optional):
+    Interactive map displaying nearest gym branches.
+    Option for directions with live traffic data from Google Maps.
+3. Cool Intro Section:
+    Eye-catching visuals, animations, or welcome messages to engage users.
+    Optional short intro video to explain gym services and benefits.
+4. Subscription UI Design (Non-Intrusive):
+    Subscription buttons placed in the sidebar or footer for easy access without blocking content.
+    Clear call-to-action (CTA) for free trials and membership sign-ups.
+5. Calorie Counter and Diet Plans:
+    Users can log meals and workouts to track daily calorie balance.
+    Meal plans divided into three categories:
+    Caloric Deficit (weight loss)
+    Maintenance (stable weight)
+    Bulking (weight/muscle gain)
+6. Weight and Height Tracking:
+    Feature for logging and tracking weight and height over time.
+    Data visualized through line graphs or progress charts.
+7. Gym Preview and Amenities:
+    High-quality images showcasing gym facilities, equipment, and ambiance.
+    Descriptions of gym services such as free weights, cardio, and functional training.
+9. Community and Wellness Promotion:
+    Testimonials, success stories, and community event announcements.
+    Emphasis on the supportive and caring nature of gym staff.
+10. Subscription and Free Trial Options:
+    Free trial sign-up button displayed prominently.
+    Clear breakdown of subscription plans and associated benefits.
+11. Footer with Contact Information and Policies:
+    Detailed contact information (phone, email, address).
+    Links to social media profiles for engagement (e.g., Facebook, Instagram).
+    Newsletter subscription form for users to receive updates.
+    Links to FAQs, Privacy Policy, and Terms of Service.
+
+User Roles and Responsibilities
+1. Admin Role:
+Responsibilities:
+    Manage user accounts (add, edit, or delete members and staff).
+    Monitor subscription plans, payments, and gym performance reports.
+    Oversee the creation and scheduling of events or classes.
+Access Level:
+    Full access to all system features.
+    Can modify gym data, user roles, and subscription details.
+2. Staff Role (Trainers / Front Desk):
+Responsibilities:
+    Manage gym schedules and coaching sessions.
+    Assist users with inquiries, sign-ups, and attendance tracking.
+    Handle customer support and on-site management.
+Access Level:
+    Limited access to member profiles and gym data.
+    Cannot modify subscription plans or system settings.
+3. Gym Member Role (Customer):
+Responsibilities:
+    Log and track personal weight, height, and calorie data.
+    Book personal training sessions and participate in events.
+    Access gym benefits, such as free coaching and amenities.
+Access Level:
+    Dashboard access to personal tracking data and bookings.
+    Can update personal profile information.
+4. Guest Role (Free Trial User):
+Responsibilities:
+    Explore the gym’s features and services during the trial period.
+    Access free coaching sessions and try out equipment.
+    Decide on a subscription plan after the trial ends.
+Access Level:
+    Temporary access to a limited set of features.
+    Cannot book sessions beyond the trial period or access premium features.
+
+
+Deliverables Summary
+    Final Feature List:
+        User Authentication
+        Map to Gym
+        Intro Section
+        Subscription UI Design
+        Calorie Counter and Diet Plans
+        Weight and Height Tracking
+        Gym Preview and Amenities
+        Free Coaching and Training Services
+        Community and Wellness Promotion
+        Subscription and Free Trial Options
+        Footer with Contact Information and Policies
+    User Roles and Responsibilities:
+        Admin: Full system access for management and reporting.
+        Staff: Limited access for customer support and gym operations.
+        Gym Member: Personal dashboard for tracking and booking.
+        Guest: Temporary trial access to explore gym services.

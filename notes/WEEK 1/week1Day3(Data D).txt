@@ -1,0 +1,54 @@
+Data Dictionary for Gym Membership System
+1. User Table
+Attribute	    Data Type	    Description	                                            Constraints
+user_id	        INT	Unique      identifier for each user.	                            Primary Key, Auto Increment
+name	        VARCHAR(100)	Full name of the user.	                                Not Null
+email	        VARCHAR(100)	Email address for the user.	                            Not Null, Unique
+username	    VARCHAR(50)	    Unique username for the user.	                        Not Null, Unique
+password_hash	VARCHAR(255)	Hashed password for user authentication.	            Not Null
+role	        ENUM	        User's role (Admin, Staff, Member).	                    Not Null
+created_at	    DATETIME	    Timestamp of when the user account was created.	        Default:CURRENT_TIMESTAMP
+
+2. Membership Table
+
+Attribute	            Data Type	        Description	                                        Constraints
+membership_id	        INT	                Unique identifier for each membership type.	        Primary Key, Auto Increment
+type	                VARCHAR(50)	        Type of membership (e.g., Monthly, Annual).	        Not Null
+price	                DECIMAL(10,2)	    Cost of the membership.	                            Not Null
+duration_in_days	    INT	                Duration of the membership in days.	                Not Null
+description	            TEXT	            Detailed description of the membership benefits.	Nullable
+
+3. Payment Table
+Attribute	    Data Type      Description	                                    Constraints
+payment_id	    INT	           Unique identifier for each payment.              Primary Key, Auto Increment
+user_id	        INT	           Identifier of the user making the payment.       Foreign Key (User)
+amount	        DECIMAL(10,2)  Amount paid in the transaction.                  Not Null
+payment_date	DATETIME	   Date and time when the payment was made.         Not Null
+status	        ENUM	       Status of the payment (e.g., Completed, Pending).Not Null        
+
+4. User_Membership Table
+Attribute	        Data Type	Description	                                                Constraints
+user_membership_id  INT	        Unique identifier for each user-membership link.	        Primary Key, Auto Increment
+user_id	            INT	        Identifier of the user associated with the membership.	    Foreign Key (User)
+membership_id       INT	        Identifier of the associated membership.	                Foreign Key (Membership)
+start_date	        DATE	    Start date of the membership for the user.	                Not Null
+end_date	        DATE	    End date of the membership for the user.	                Not Null
+
+5.Progress Table
+| Attribute      | Data Type    | Description                                 | Constraints                    |
+|----------------|--------------|---------------------------------------------|--------------------------------|
+| progress_id    | INT          | Unique identifier for each progress entry. | Primary Key, Auto Increment   |
+| user_id        | INT          | References the user making the entry.      | Foreign Key -> User(user_id)  |
+| height_cm      | DECIMAL(5,2) | Height of the user in cm (optional).       | Optional                      |
+| weight_kg      | DECIMAL(5,2) | Weight of the user in kg.                  | Not Null                      |
+| logged_at      | DATETIME     | Timestamp of the progress entry.           | Default: CURRENT_TIMESTAMP    |
+
+6. Diet Table
+| Attribute     | Data Type    | Description                                 | Constraints                    |
+|---------------|--------------|---------------------------------------------|--------------------------------|
+| diet_id       | INT          | Unique identifier for each diet entry.      | Primary Key, Auto Increment   |
+| user_id       | INT          | References the user making the entry.       | Foreign Key -> User(user_id)  |
+| meal_type     | ENUM         | Type of meal (e.g., Breakfast, Lunch).      | Not Null                      |
+| calories      | INT          | Total calories for the meal.                | Not Null                      |
+| date_logged   | DATE         | Date the meal was logged.                   | Not Null                      |
+| description   | TEXT         | Optional notes about the meal.              | Optional                      |

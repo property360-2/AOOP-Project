@@ -36,10 +36,10 @@ Day 5: Set Up Project Environment
 Objective: Prepare your development environment.
 Tasks:
 Install XAMPP or MAMP on your computer for local PHP and MySQL development.(DONE)
-Create a GitHub repository for version control. Initialize the repository and add a README file.
-Create the project folder structure:
-bash
-Copy code
+Create a GitHub repository for version control. Initialize the repository and add a README file. (DONE)
+Create the project folder structure:(DONE)
+bash 
+Copy code 
 /gym-membership-app
 ├── /frontend
 ├── /backend

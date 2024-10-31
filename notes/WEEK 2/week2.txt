@@ -3,13 +3,13 @@ Day 1: MySQL Database Creation and Setup (DONE)
 Objective: Set up the MySQL database and tables required for the application.
 Tasks:
 
-Install MySQL and any required database management tools (e.g., phpMyAdmin).
-Create the database (gym_membership_db).
-Define and create tables such as User, Membership, Payment, Progress, and Diet based on your ERD.
-Set appropriate primary keys, foreign keys, and constraints.
-Populate the tables with some initial dummy data for testing.
-Deliverable:
-Functional MySQL database with tables and relationships established.
+Install MySQL and any required database management tools (e.g., phpMyAdmin).(DONE)
+Create the database (gym_membership_db).(DONE)
+Define and create tables such as User, Membership, Payment, Progress, and Diet based on your ERD.(DONE)
+Set appropriate primary keys, foreign keys, and constraints.(DONE)
+Populate the tables with some initial dummy data for testing.(DONE)
+Deliverable:(DONE)
+Functional MySQL database with tables and relationships established.(DONE)
 Day 2: PHP Database Connection Setup 
 Objective: Write initial PHP scripts to connect to the MySQL database.
 Tasks:
@@ -20,6 +20,7 @@ Create a reusable database connection function in PHP.
 Test the connection to ensure that the database is accessible.
 Deliverable:
 PHP script that successfully connects to the MySQL database.
+
 Day 3: User Registration Logic (Backend Only)
 Objective: Develop the PHP backend logic for user registration.
 Tasks:

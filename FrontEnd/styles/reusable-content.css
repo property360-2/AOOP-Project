@@ -1,0 +1,138 @@
+:root {
+    --BackgroundOrSectionDividers: #E4E0E1;
+    --AccentSectionsOrCards: #D6C0B3;
+    --ButtonsLinksOrHeadings: #AB886D;
+    --TextOrFooter: #493628;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: var(--BackgroundOrSectionDividers);
+    color: var(--TextOrFooter);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--AccentSectionsOrCards);
+    padding: 20px;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-container img {
+    height: 50px; /* Adjust based on your logo size */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--ButtonsLinksOrHeadings);
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--TextOrFooter);
+}
+
+.introduction {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.introduction h1 {
+    color: var(--ButtonsLinksOrHeadings);
+}
+
+.introduction p {
+    margin: 10px 0;
+}
+
+.introduction a {
+    text-decoration: none;
+    color: var(--ButtonsLinksOrHeadings);
+    font-weight: bold;
+}
+
+.introduction a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--AccentSectionsOrCards);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.terms-and-conditions {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.footer-block-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-block-container div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-block-container h2 {
+    color: var(--ButtonsLinksOrHeadings);
+}
+
+.footer-block-container a {
+    text-decoration: none;
+    color: var(--TextOrFooter);
+    transition: color 0.3s;
+}
+
+.footer-block-container a:hover {
+    color: var(--ButtonsLinksOrHeadings);
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    transition: fill 0.3s;
+}
+
+.icon:hover {
+    color: var(--ButtonsLinksOrHeadings);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}

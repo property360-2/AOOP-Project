@@ -14,32 +14,32 @@ Day 2: PHP Database Connection Setup
 Objective: Write initial PHP scripts to connect to the MySQL database.
 Tasks:
 
-Install PHP on your development environment if not already installed.
-Write a PHP configuration file (db_config.php) for database connection parameters (host, username, password, db name).
-Create a reusable database connection function in PHP.
-Test the connection to ensure that the database is accessible.
+Install PHP on your development environment if not already installed.(DONE)
+Write a PHP configuration file (db_config.php) for database connection parameters (host, username, password, db name).(DONE)
+Create a reusable database connection function in PHP.(DONE)
+Test the connection to ensure that the database is accessible.(DONE)
 Deliverable:
-PHP script that successfully connects to the MySQL database.
+PHP script that successfully connects to the MySQL database.(DONE)
 
 Day 3: User Registration Logic (Backend Only)
 Objective: Develop the PHP backend logic for user registration.
 Tasks:
 
-Write a PHP script (register.php) to handle user input from the registration form.
-Include validations (e.g., email format, password match, unique username/email).
-Hash passwords securely using password_hash().
-Insert new users into the User table on successful registration.
-Handle errors (e.g., duplicate emails) gracefully.
-Deliverable:
-Functional backend for user registration, inserting data into the MySQL database.
-Day 4: User Login Logic (Backend Only)
-Objective: Implement backend logic for user authentication.
-Tasks:
+Write a PHP script (register.php) to handle user input from the registration form.(DONE)
+Include validations (e.g., email format, password match, unique username/email).(DONE)
+Hash passwords securely using password_hash().(DONE)
+Insert new users into the User table on successful registration.(DONE)
+Handle errors (e.g., duplicate emails) gracefully.(DONE)
+Deliverable:(DONE)
+Functional backend for user registration, inserting data into the MySQL database.(DONE)
+Day 4: User Login Logic (Backend Only)(DONE)
+Objective: Implement backend logic for user authentication.(DONE)
+Tasks:(DONE)
 
-Create a login script (login.php) to validate credentials.
-Use password_verify() to check the hashed password against the database.
-Set session variables on successful login to manage the user state.
-Handle login errors (e.g., incorrect password or unregistered email).
+Create a login script (login.php) to validate credentials.(DONE)
+Use password_verify() to check the hashed password against the database.(DONE)
+Set session variables on successful login to manage the user state.(DONE)
+Handle login errors (e.g., incorrect password or unregistered email).(DONE)
 Deliverable:
 Functional login backend with proper session management.
 Day 5: Create Reusable Components (Header/Footer Templates)
